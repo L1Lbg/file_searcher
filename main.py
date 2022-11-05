@@ -37,4 +37,4 @@ while len(to_scan) != 0:
 
 #output
 print('Scanned ' + str(len(scanned_dirs)) + ' directory(s)')
-print('Found this files ' + str(found_files))
+print('Found this file(s) ' + str(found_files))
