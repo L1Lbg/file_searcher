@@ -16,7 +16,7 @@ if scan_only_principal_dirs == False:
 	to_scan = [home_dir]
 if scan_only_principal_dirs == True:
 	#change if you want the principal dirs, adding them to the list
-	to_scan = [home_dir + '/Desktop', home_dir + os.path.sep + 'Documents', home_dir + os.path.sep + '/Downloads', home_dir + os.path.sep + 'Dropbox', home_dir + os.path.sep + 'OneDrive',  home_dir + os.path.sep + 'Videos',  home_dir + os.path.sep + 'Photos']
+	to_scan = [home_dir + '/Desktop', home_dir + os.path.sep + 'Documents', home_dir + os.path.sep + 'Downloads', home_dir + os.path.sep + 'Dropbox', home_dir + os.path.sep + 'OneDrive',  home_dir + os.path.sep + 'Videos',  home_dir + os.path.sep + 'Photos']
 
 #be able to execute the script with terminal arguments or just terminal
 if len(sys.argv) == 1:
